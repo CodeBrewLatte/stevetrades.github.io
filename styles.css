@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+header {
+	background-image: url(bg.png);
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+}
+
+nav {
+	padding: 1rem;
+	
+	
+}
+
+.menu {
+	
+}
+
+.menu-li a {
+	list-style: none;
+	color: white;
+	padding: 1rem;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+.menu-ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+	justify-content: flex-end;
+}
+
+.intro {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	height: 50vh;
+	align-items: center;
+}
+
+.intro h1 {
+	font-size: 3rem;
+	color: white;
+	font-weight: bold;
+}
+
+.intro h3 {
+	color: white;
+	font-weight: 400;
+}
+
+.youtube-logo {
+	width: 75px;
+	height: 75px;
+}
