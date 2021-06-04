@@ -139,6 +139,7 @@ article a {
 .finance-text {
 	align-items: center;
 	text-align: center;
+	width: 400px;
 }
 
 .finance-text h1 {
@@ -147,7 +148,6 @@ article a {
 
 .finance-text h3 {
 	color: white;
-	width: 500px;
 	font-weight: 300;
 }
 
@@ -225,8 +225,8 @@ footer {
 	}
 
 	.finance img {
-		width: 500px;
-		height: 500px;
+		width: 400px;
+		height: 300px;
 	}
 
 	.stevepic img {
