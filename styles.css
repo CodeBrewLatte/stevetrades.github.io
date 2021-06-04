@@ -14,7 +14,6 @@ header {
 nav {
 	padding: 1rem;
 	
-	
 }
 
 .menu {
@@ -194,3 +193,24 @@ article a {
 	font-weight: lighter;
 	padding-top: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+	.menu-li a {
+	  padding: .5rem;
+	  
+	}
+	.menu-ul {
+		justify-content: center;
+	}
+
+	.finance img {
+		width: 500px;
+		height: 500px;
+	}
+
+	.stevepic img {
+		width: 400px;
+		height: 350px;
+		margin-bottom: 10px;
+	}
+  }
