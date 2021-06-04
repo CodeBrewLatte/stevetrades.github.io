@@ -239,5 +239,9 @@ footer {
 		width: 500px;
 		padding-left: 0px;
 	}
+
+	.finance-text {
+		width: 400px;
+	}
   }
 
