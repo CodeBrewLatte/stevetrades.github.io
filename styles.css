@@ -222,11 +222,16 @@ footer {
 	}
 	.menu-ul {
 		justify-content: center;
+		align-items: center;
 	}
 
 	.finance img {
 		width: 400px;
 		height: 300px;
+	}
+
+	.menu-li {
+		text-align: center;
 	}
 
 	.stevepic img {
@@ -242,6 +247,10 @@ footer {
 
 	.finance-text {
 		width: 400px;
+	}
+
+	nav {
+		text-align: center;
 	}
   }
 
