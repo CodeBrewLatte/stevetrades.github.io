@@ -194,6 +194,27 @@ article a {
 	padding-top: 10px;
 }
 
+footer {
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background-color: cadetblue;
+	color: white;
+	flex-direction: column;
+	
+}
+
+.foot-contain {
+	padding: 5px;
+	display: flex;
+	text-align: center;
+}
+
+.foot-item {
+	padding: 5px;
+}
+
 @media only screen and (max-width: 600px) {
 	.menu-li a {
 	  padding: .5rem;
@@ -209,8 +230,14 @@ article a {
 	}
 
 	.stevepic img {
-		width: 400px;
+		width: 450px;
 		height: 350px;
 		margin-bottom: 10px;
 	}
+
+	.stevebio {
+		width: 500px;
+		padding-left: 0px;
+	}
   }
+
